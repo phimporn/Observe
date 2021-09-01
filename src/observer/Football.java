@@ -30,7 +30,7 @@ public class Football implements SourceFootball {
     }
     @Override
     public void notifyObservers() {
-        for (int m = 0; m <1; m++) {
+        for (int m = 0; m < list.size(); m++) {
             list.get(m).update(this);
         }
     }
