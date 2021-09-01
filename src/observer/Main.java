@@ -21,7 +21,7 @@ public class Main {
         System.out.println("Enter Football Score Ex Thai 2-0 UAE \n Exit program Please Enter");
         String text = sc.nextLine();
         if("".equals(text)){
-            System.out.println("No Text");
+            System.out.println("Program End ...");
             return; //System.exit(0)
         }else{
         Football1 football1 = new Football1();
